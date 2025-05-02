@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/futbolm/static/css/main.0b237b6c.css",
-    "main.js": "/futbolm/static/js/main.9f14fded.js",
-    "static/js/453.4a46377e.chunk.js": "/futbolm/static/js/453.4a46377e.chunk.js",
-    "index.html": "/futbolm/index.html",
-    "main.0b237b6c.css.map": "/futbolm/static/css/main.0b237b6c.css.map",
-    "main.9f14fded.js.map": "/futbolm/static/js/main.9f14fded.js.map",
-    "453.4a46377e.chunk.js.map": "/futbolm/static/js/453.4a46377e.chunk.js.map"
+    "main.css": "/pizzas/static/css/main.0b237b6c.css",
+    "main.js": "/pizzas/static/js/main.80384fb7.js",
+    "static/js/453.4a46377e.chunk.js": "/pizzas/static/js/453.4a46377e.chunk.js",
+    "index.html": "/pizzas/index.html",
+    "main.0b237b6c.css.map": "/pizzas/static/css/main.0b237b6c.css.map",
+    "main.80384fb7.js.map": "/pizzas/static/js/main.80384fb7.js.map",
+    "453.4a46377e.chunk.js.map": "/pizzas/static/js/453.4a46377e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b237b6c.css",
-    "static/js/main.9f14fded.js"
+    "static/js/main.80384fb7.js"
   ]
 }
