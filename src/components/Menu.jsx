@@ -119,7 +119,7 @@ import { useCart } from '../context/CartContext'; // Importa el hook del carrito
 
 const categories = ['pizzas', 'entradas', 'postres'];
 
-const menuData = {
+/*const menuData = {
   pizzas: [
     {
       name: 'Margherita Black',
@@ -141,6 +141,7 @@ const menuData = {
         'Prosciutto di Parma DOP, mozzarella fior di latte, tomates cherry y reducción balsámica.',
       price: 26.99,
       image: './img/Prosciutto di Parma.jpeg',
+      
     },
   ],
   entradas: [
@@ -189,7 +190,71 @@ const menuData = {
       image: './img/cotta.jpeg',
     },
   ],
+};*/
+
+const menuData = {
+  pizzas: [
+    {
+      name: 'Margherita Black',
+      description: 'Salsa de tomate San Marzano, mozzarella di bufala, albahaca fresca y aceite de trufa negra.',
+      price: 24.99,
+      image: 'https://cdn.loveandlemons.com/wp-content/uploads/2019/09/margherita-pizza-1080x1080.jpg',
+    },
+    {
+      name: 'Trufa & Hongos',
+      description: 'Mezcla de hongos silvestres, queso fontina, salsa cremosa de trufa y rúcula fresca.',
+      price: 28.99,
+      image: 'https://lacasadelassetas.com/blog/wp-content/uploads/2023/07/trufa-de-otono-uncinatum.jpg',
+    },
+    {
+      name: 'Prosciutto di Parma',
+      description: 'Prosciutto di Parma DOP, mozzarella fior di latte, tomates cherry y reducción balsámica.',
+      price: 26.99,
+      image: 'https://th.bing.com/th/id/OIP.4HjdDV1lBxQYeKXNyifNXwHaE7?rs=1&pid=ImgDetMain',
+    },
+  ],
+  entradas: [
+    {
+      name: 'Bruschetta Royal',
+      description: 'Pan rústico tostado con tomates heirloom, albahaca fresca, ajo y aceite de oliva virgen extra.',
+      price: 12.99,
+      image: 'https://th.bing.com/th/id/R.f2f6388092d3c31c6c5f41cdccbf1adc?rik=uscLgfXEB5rriw&pid=ImgRaw&r=0',
+    },
+    {
+      name: 'Carpaccio de Res Wagyu',
+      description: 'Finas láminas de res Wagyu con rúcula, parmesano reggiano y alcaparras.',
+      price: 18.99,
+      image: 'https://www.gutekueche.at/storage/media/recipe/117938/conv/carpaccio-vom-kobe-wagyu-rind-default.jpg',
+    },
+    {
+      name: 'Arancini de Trufa',
+      description: 'Bolitas de risotto crocantes rellenas de mozzarella y trufa negra, acompañadas de salsa pomodoro.',
+      price: 14.99,
+      image: 'https://th.bing.com/th/id/OIP.F7Wd_qK70OJ_mn_Wmiz3YQAAAA?rs=1&pid=ImgDetMain',
+    },
+  ],
+  postres: [
+    {
+      name: 'Tiramisú Clásico',
+      description: 'Elaborado con mascarpone italiano, café espresso y cacao en polvo.',
+      price: 9.99,
+      image: 'https://th.bing.com/th/id/OIP.MFaV7ax6MKEvXdD6u_LZvgHaE8?rs=1&pid=ImgDetMain',
+    },
+    {
+      name: 'Cannoli Siciliani',
+      description: 'Conchas crujientes rellenas de ricotta dulce con chips de chocolate y pistachos.',
+      price: 8.99,
+      image: 'https://th.bing.com/th/id/OIP.HYJ3aR8PMDmBk6aaM9nzdgHaE8?rs=1&pid=ImgDetMain',
+    },
+    {
+      name: 'Panna Cotta',
+      description: 'Crema italiana con vainilla de Madagascar, acompañada de coulis de frutos rojos.',
+      price: 10.99,
+      image: 'https://th.bing.com/th/id/OIP.BXP-joWsK9advycGebm98AHaFj?rs=1&pid=ImgDetMain',
+    },
+  ],
 };
+
 
 const Menu = () => {
   const [activeCategory, setActiveCategory] = useState('pizzas');
@@ -234,3 +299,4 @@ const Menu = () => {
 };
 
 export default Menu;
+
